@@ -29,7 +29,7 @@ const TodoComponent = () => {
       value: inputData,
       date: inputDate.toISOString().slice(0, 10),
     });
-    setValue("");
+    setValue();
     setEdit("");
     setToggle(false);
   };
